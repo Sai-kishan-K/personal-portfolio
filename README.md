@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Voice Scaffold
 
 Voice Scaffold is a local full-stack app that converts architecture intent (voice or text) into a validated infrastructure AST, generates scaffolded project files, and can run generated stacks with Docker Compose.
@@ -206,3 +207,43 @@ voice-scaffold/
 ## Notes
 
 - Voice features require external network access for Speechmatics/OpenAI APIs.
+=======
+# Paris Data Glow
+
+Vite + React + TypeScript portfolio app, configured for static hosting.
+
+## Local development
+
+```bash
+npm install
+npm run dev
+```
+
+## Production build
+
+```bash
+npm run build
+npm run preview
+```
+
+The production files are generated in `dist/`.
+
+## Hosting options
+
+### GitHub Pages
+
+1. Push this project to a GitHub repository.
+2. In GitHub, open `Settings` -> `Pages`.
+3. Set `Source` to `GitHub Actions`.
+4. Push to the `main` branch and the included workflow will build and deploy the site.
+
+This project uses `HashRouter` and a relative Vite `base`, so it works from a repository subpath on GitHub Pages.
+GitHub Pages route fallback is handled by `public/404.html`, which redirects unknown paths back into the app.
+
+### Netlify or Vercel
+
+Use these build settings:
+
+- Build command: `npm run build`
+- Publish directory: `dist`
+>>>>>>> 796b907 (Updated resume and made minority changes for the urls and projects)
